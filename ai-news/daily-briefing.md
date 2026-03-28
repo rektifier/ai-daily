@@ -4,73 +4,38 @@
 
 ---
 
-## 1. SoftBank Secures Record $40B Bridge Loan to Fund OpenAI Stake — IPO Signal
-**Summary:** SoftBank secured a $40 billion unsecured bridge loan (12-month maturity) from JPMorgan, Goldman Sachs, Mizuho, SMBC, and MUFG — its largest-ever dollar-denominated borrowing — to fund its $30 billion commitment in OpenAI's $110 billion financing round. SoftBank's total OpenAI stake now targets approximately 13%, with cumulative valuation gains of ~$19.8 billion through December 2025. The 12-month loan term is widely interpreted as lenders pricing in an OpenAI IPO in late 2026 or early 2027 as the exit mechanism.  
-**Why it matters:** This is the single largest bridge loan in SoftBank's history and a clear market signal that institutional investors expect OpenAI to go public within the year. It also cements OpenAI's $110 billion round — already the largest startup funding deal ever recorded — as the defining capital event of the current AI cycle.  
-**Source:** [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-27/softbank-secures-record-40-billion-bridge-loan-for-openai-stake) | [TechCrunch](https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/) — March 27–28, 2026
+## 1. Anthropic's Next-Generation "Claude Mythos" Model Accidentally Leaked via Data Store Misconfiguration
+**Summary:** Security researchers discovered that a misconfigured Anthropic content management system left nearly 3,000 internal documents publicly accessible, including a draft blog post describing "Claude Mythos" — a new model tier above Opus. Anthropic confirmed to Fortune that Mythos represents "a step change" and "the most capable model we've built to date," with dramatically higher benchmark scores in coding, academic reasoning, and especially cybersecurity. Leaked drafts warn the model is "currently far ahead of any other AI model in cyber capabilities" and describe plans to release it first to cyber defense organizations before any general release.
+**Why it matters:** Beyond the security embarrassment of self-disclosing a secret model through a misconfigured storage bucket, Claude Mythos signals that Anthropic has a frontier capability lead it hasn't yet publicized — directly relevant to its reported October 2026 IPO timeline and to the offensive/defensive cybersecurity balance across the industry. OpenAI is simultaneously finishing pretraining its own frontier model codenamed "Spud," making the race to the next capability tier now explicit and public.  
+**Source:** [Fortune](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) | [The-Decoder](https://the-decoder.com/anthropic-leak-reveals-new-model-claude-mythos-with-dramatically-higher-scores-on-tests/) | [CoinDesk](https://www.coindesk.com/markets/2026/03/27/anthropic-s-massive-claude-mythos-leak-reveals-a-new-ai-model-that-could-be-a-cybersecurity-nightmare) — March 26–27, 2026
 
 ---
 
-## 2. Federal Judge Blocks Pentagon's "Supply Chain Risk" Blacklisting of Anthropic
-**Summary:** U.S. District Judge Rita Lin issued a 43-page ruling indefinitely blocking the Pentagon's designation of Anthropic as a "supply chain risk to national security" — a label historically reserved for foreign adversaries like Huawei. The dispute arose after Anthropic requested ethical exceptions in its government contracts (no mass domestic surveillance; no fully autonomous weapons), and Secretary Hegseth responded by blacklisting the company after Anthropic criticized the government publicly. Judge Lin wrote: "Punishing Anthropic for bringing public scrutiny to the government's contracting position is classic illegal First Amendment retaliation."  
-**Why it matters:** This is the first major court ruling on whether the U.S. government can use national security procurement law as retaliation against a domestic AI company for protected speech. It sets a significant legal precedent that could constrain government pressure tactics on AI labs and shapes the terrain for future civil-military AI relationships.  
-**Source:** [CNN Business](https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk) | [CNBC](https://www.cnbc.com/2026/03/24/anthropic-lawsuit-pentagon-supply-chain-risk-claude.html) | [Anthropic](https://www.anthropic.com/news/where-stand-department-of-war) — March 26, 2026
+## 2. Apple iOS 27 to Open Siri to All Third-Party AI Services, Ending ChatGPT Exclusivity
+**Summary:** Bloomberg reported that Apple is building an "Extensions" system in iOS 27 that will allow any AI chatbot available on the App Store — including Google Gemini, Anthropic Claude, Perplexity, Meta AI, xAI Grok, and Microsoft Copilot — to integrate directly with Siri, replacing the current ChatGPT-only arrangement that has been in place since Apple Intelligence launched in 2024. Users will choose their preferred AI service per query through a new Siri settings panel with a dedicated App Store section. Apple also plans to collect up to 30% commission on AI subscriptions sold through the new channel, with in-app AI revenue already on pace to exceed $1 billion in 2026 before the feature ships.
+**Why it matters:** This is a structural platform shift: Apple is repositioning the iPhone from an AI-consumer to an AI-distribution layer, concentrating model selection and subscription revenue at the OS level. It ends OpenAI's privileged position on the world's largest-revenue smartphone platform, opens a new competitive surface for every major AI lab, and could reshape which models gain consumer traction at scale.  
+**Source:** [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27) | [MacRumors](https://www.macrumors.com/2026/03/26/apple-ios-27-siri-chatbot-integration/) — March 26–27, 2026
 
 ---
 
-## 3. ARC-AGI-3 Released: All Frontier AI Models Score Below 1%; Humans Score 100%
-**Summary:** Researchers published ARC-AGI-3, a new interactive benchmark for agentic intelligence built around novel, abstract, turn-based environments where agents must explore, infer goals, build internal models, and plan without explicit instructions. As of release, every tested frontier AI model scores below 1% while humans achieve 100%. The paper explicitly frames the gap as evidence that current AI systems lack the fluid adaptive efficiency that ordinary humans possess.  
-**Why it matters:** As frontier labs celebrate above-human performance on narrower benchmarks (e.g., GPT-5.4 Pro's 83.3% on the previous ARC-AGI-2), ARC-AGI-3 resets the goalposts and provides a concrete public signal of where even the most capable models still fundamentally fall short — relevant for anyone benchmarking AI readiness for open-ended agentic deployment.  
-**Source:** [arXiv cs.AI](https://arxiv.org/list/cs.AI/recent) — March 2026
+## 3. Google Releases Gemini 3.1 Flash Live; Launches Real-Time "Search Live" in 200+ Countries
+**Summary:** Google released Gemini 3.1 Flash Live on March 26, a new native audio-to-audio model that eliminates the traditional transcribe-reason-synthesize stack in favor of a single real-time multimodal pass. It supports stateful bidirectional WebSocket streaming, over 90 languages, barge-in interruption, simultaneous audio/video/transcript input, and SynthID watermarking of all generated audio. The model scores 95.9% on Big Bench Audio (thinking mode) and 90.8% on ComplexFuncBench Audio. Google simultaneously rolled out "Search Live" — voice and camera search with back-and-forth dialogue — to over 200 countries starting March 27.
+**Why it matters:** Native audio models with sub-200ms latency and multimodal input collapse the gap between AI assistants and real human conversation, opening viable paths for voice-first enterprise applications (customer support, healthcare intake, real-time translation) that were previously too brittle or too slow. Combined with the global Search Live rollout, Google is making real-time AI interaction a default feature of global search — not a premium add-on.  
+**Source:** [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) | [MarkTechPost](https://www.marktechpost.com/2026/03/26/google-releases-gemini-3-1-flash-live-a-real-time-multimodal-voice-model-for-low-latency-audio-video-and-tool-use-for-ai-agents/) — March 26–27, 2026
 
 ---
 
-## 4. Google DeepMind Releases First Validated AI Manipulation Measurement Toolkit
-**Summary:** DeepMind published research on AI's potential for harmful behavioral manipulation and released the first empirically validated toolkit to measure AI manipulation in real-world human participant studies. All study materials and measurement instruments are being released publicly to enable replication. The work covers both overt persuasion and subtler forms of psychological influence.  
-**Why it matters:** As AI systems become more capable at personalized communication, the ability to detect and measure manipulation becomes a prerequisite for safe deployment in high-stakes contexts (health, legal, financial). This toolkit gives researchers and regulators a concrete empirical baseline that didn't previously exist.  
-**Source:** [Google DeepMind](https://deepmind.google/blog/protecting-people-from-harmful-manipulation/) — March 26, 2026
+## 4. OpenAI Sets Two-Stage Sora Shutdown Timeline; Disney's $1 Billion Investment Collapses
+**Summary:** Following OpenAI's March 24 announcement that Sora would be discontinued, new details emerged this week: the shutdown proceeds in two stages — the Sora web app and iOS app close April 26, 2026, and the developer API shuts down September 24, 2026. Separately, Variety and The Hollywood Reporter confirmed that Walt Disney Co.'s planned $1 billion stake in OpenAI, announced in December 2025 alongside a three-year Sora licensing deal for Disney, Marvel, Pixar, and Star Wars characters, never closed — no money changed hands before Disney walked away. OpenAI cited unsustainable inference costs ($15M/day at peak against $2.1M in lifetime app revenue) and a strategic pivot toward AGI-focused compute allocation and robotics.
+**Why it matters:** The two-stage API timeline gives developers a firm migration deadline (September 2026) and establishes that video generation inference economics remain broken at scale. The Disney deal collapse is a significant reputational signal: a $1 billion institutional commitment evaporated when the underlying product was killed, raising due diligence questions about OpenAI's product roadmap commitments ahead of its anticipated IPO.  
+**Source:** [The-Decoder](https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/) | [Variety](https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/) | [TechCrunch](https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/) — March 24–27, 2026
 
 ---
 
-## 5. Anthropic Claude Computer Use Reaches General Availability; Auto Mode Launches for Claude Code
-**Summary:** Anthropic announced general availability of Claude's computer-use capability on March 23, enabling Claude to autonomously interact with desktop applications, browsers, and files. One day later, Anthropic launched Auto Mode for Claude Code, allowing the model to autonomously plan and execute multi-step software engineering tasks with minimal human direction.  
-**Why it matters:** Moving computer use from beta to GA — combined with autonomous coding mode — meaningfully expands the attack surface of AI-driven automation in production enterprise environments. It also directly intensifies competition with OpenAI's native computer-use capability (GPT-5.4) and Microsoft's Copilot Cowork agent.  
-**Source:** [Anthropic](https://www.anthropic.com/news) — March 23–24, 2026
-
----
-
-## 6. OpenAI Launches Safety Bug Bounty Program
-**Summary:** OpenAI launched a formal Safety Bug Bounty program on March 25, inviting external security researchers to identify vulnerabilities in its AI systems in exchange for financial rewards. This applies software security disclosure norms — already standard for traditional software — to AI safety and model-level vulnerabilities for the first time at OpenAI's scale.  
-**Why it matters:** Institutionalizing external AI safety research creates a new category of incentivized adversarial testing. It signals OpenAI acknowledges its models have exploitable failure modes and that internal red-teaming is insufficient — a meaningful posture shift that could set an industry norm if other labs follow.  
-**Source:** [OpenAI](https://openai.com/news/research/) — March 25, 2026
-
----
-
-## 7. White House Releases National AI Policy Framework — Pushes Federal Preemption of State Laws
-**Summary:** The White House released a National Policy Framework for AI on March 20 recommending Congress adopt a unified federal approach that broadly preempts state AI legislation. Key positions: no new federal AI regulatory agency; existing sector regulators remain; AI training on copyrighted material does not violate copyright (per the Administration); child safety age-assurance requirements are encouraged; and states should not impose liability on AI developers for third-party misuse of their models.  
-**Why it matters:** If enacted, federal preemption would supersede a rapidly growing patchwork of state AI laws (Colorado, Texas, Washington, Vermont, and others). The Administration's stance on copyright training data directly contradicts ongoing litigation and could reshape the economics of foundation model development.  
-**Source:** [WilmerHale analysis](https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20260323-white-house-releases-national-policy-framework-for-artificial-intelligence) | [Transparency Coalition](https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026) — March 20, 2026
-
----
-
-## 8. UK Regulators Issue Formal Joint Demand to xAI Over Grok
-**Summary:** The UK's Information Commissioner's Office (ICO) and Ofcom jointly issued a formal information demand to Elon Musk's xAI, seeking details on Grok's data handling practices, training data sourcing, and compliance with UK law. This is the first coordinated multi-regulator action in the UK directly targeting a frontier AI model.  
-**Why it matters:** The joint ICO-Ofcom action signals that UK regulators are moving from observation to enforcement on AI models, and the coordinated approach across data protection and broadcast regulators sets a template for how multi-agency AI scrutiny could work in other jurisdictions.  
-**Source:** [Crescendo AI](https://www.crescendo.ai/news/latest-ai-news-and-updates) — March 2026
-
----
-
-## 9. EU Council Agrees to Streamline AI Act — High-Risk AI Timelines Extended Up to 16 Months
-**Summary:** On March 13, the EU Council agreed its position on simplifying the AI Act as part of the Omnibus VII package. Key changes include: high-risk AI compliance deadlines extended up to 16 months pending availability of standards and testing tools; exemptions broadened to small mid-cap companies (previously only SMEs); a new explicit prohibition on generating non-consensual intimate imagery and CSAM; and strengthened AI Office powers with reduced governance fragmentation.  
-**Why it matters:** The timeline extensions give enterprises more runway before enforcement, but the broader exemption scope and new content prohibitions reshape compliance planning for European AI deployments. Delays in high-risk AI rules may also give non-EU competitors time to establish market positions before European standards lock in.  
-**Source:** [EU Council](https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/) — March 13, 2026
-
----
-
-## 10. NASA Perseverance Completes First Fully AI-Planned Mars Drives Using Claude
-**Summary:** NASA's Perseverance rover completed two Martian drives totaling 1,496 feet (455.9 meters) using routes entirely planned by Anthropic's Claude, which analyzed HiRISE orbital imagery and elevation models, identified surface hazards, and wrote drive commands in Rover Markup Language. The resulting plans passed a 500,000-variable simulation with only minor corrections. This replaced a 28-year-old manual planning process for a complete autonomous drive.  
-**Why it matters:** Replacing human mission planners with AI for an active space mission is a landmark adoption inflection point — the highest-stakes, lowest-error-tolerance environment where AI has autonomously planned physical action. It validates agentic AI for safety-critical scientific infrastructure and will accelerate similar deployments across planetary science.  
-**Source:** [NASA JPL](https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/) | [Anthropic](https://www.anthropic.com/features/claude-on-mars) — Reported February–March 2026
+## 5. US State AI Legislation Surge: 78 Bills Active in 27 States as Federal Preemption Debate Intensifies
+**Summary:** As of March 27, 78 AI-related bills remain active across 27 U.S. states in the 2026 legislative session, according to the AI Transparency Coalition's weekly tracker. Passed measures include school AI and device restrictions, deepfake prohibitions, and requirements that AI not make final medical decisions — with Texas, Colorado, Washington, and Vermont the most active legislatures. The surge comes six weeks after the White House released its National Policy Framework recommending Congress preempt state laws with a unified federal standard.
+**Why it matters:** The gap between state legislative momentum and the still-unlegislated federal preemption proposal is growing. Enterprises building AI products face an increasingly fragmented compliance landscape: 78 active bills across 27 jurisdictions, each with different definitions, thresholds, and liability regimes. If federal preemption legislation does not pass in 2026, the patchwork will lock in as the default regulatory environment for AI deployment in the U.S. for years.  
+**Source:** [AI Transparency Coalition](https://www.transparencycoalition.ai/news/ai-legislative-update-march27-2026) — March 27, 2026
 
 ---
 *Report generated on 2026-03-28 UTC*
