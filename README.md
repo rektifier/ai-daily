@@ -1,2 +1,2 @@
 # ai-daily
-Aggregated daily AI news
+Aggregated daily news
